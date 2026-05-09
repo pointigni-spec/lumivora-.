@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Enroll | Lumivora</title>
+
+<style>
+
+body{
+    font-family:Arial;
+    background:#f5f9ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.form-box{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    width:350px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-top:12px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    margin-top:20px;
+    border:none;
+    border-radius:12px;
+    background:#4f7cff;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="form-box">
+
+<h2>Course Enrollment</h2>
+
+<form action="https://formspree.io/f/xkoyqkqy" method="POST">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<input type="number" name="age" placeholder="Your Age" required>
+
+<textarea name="message" placeholder="Why do you want to join?"></textarea>
+
+<button type="submit">
+Submit Enrollment
+</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
